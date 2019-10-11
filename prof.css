@@ -1,0 +1,141 @@
+﻿@charaset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url(pic/delicate-yellow-abstract-watercolor-background_3590-82.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+#wrap{
+	width:1000px;
+	margin:0 auto;
+	padding-left:120px;
+
+}
+
+nav{
+	position:fixed;
+	top:80px;
+	left:70px;
+}
+
+nav ul{
+	list-style-type:none;
+	width:700px;
+	margin:0 auto;
+}
+
+nav li{
+	text-align:center;
+	font-size:16px;
+	font-family: 'Permanent Marker', cursive;
+	background-image:url(pic/blue-paint-wall-background-texture_53876-14183.jpg);
+	margin:5px 10px;
+	width:150px;
+	height:50px;
+	border-radius:1000px;
+}
+
+li a{
+	color:#fff;
+	text-decoration:none;
+}
+	
+li:first-letter{
+	font-size:1.8em
+}
+
+h1{
+	width:200px;
+	border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+	border:dotted 3px #aaa;
+	background-color:#fff;
+	text-align:center;
+	position:fixed;
+	top:20px;
+	left:50px;
+}
+
+.pic,.balloon4{
+	float:left;
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+.balloon4 {
+  position: relative;
+  margin: 2em 0 2em 40px;
+  padding: 15px;
+  background: #fff0c6;
+  border-radius: 30px;
+}
+
+.balloon4:before {  
+  content: "";
+  position: absolute;
+  left: -38px;
+  width: 13px;
+  height: 12px;
+  bottom: 0;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+
+.balloon4:after {
+  content: "";
+  position: absolute;
+  left: -24px;
+  width: 20px;
+  height: 18px;
+  bottom: 3px;
+  background: #fff0c6;
+  border-radius: 50%;
+}
+.balloon4 p {
+  margin: 0; 
+  padding: 0;
+}
+
+.pic img{
+	margin-right:10px;
+	border-radius:1000px;
+}
+
+.pic{
+	width:600px;
+}
+
+.box6 {
+	padding: 1em 2em;
+    margin: 3em 0;
+    background: #f0f7ff;
+    border: dashed 2px #5b8bd0;/*点線*/
+}
+.box6 p {
+    margin: 1em; 
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.recruit{
+	background-color:#fff;
+	font-weight:2.0;
+}
+
+.rights{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#ccc;
+	padding:10px 0;
+}

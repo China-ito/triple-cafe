@@ -1,0 +1,415 @@
+﻿@charaset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url(pic/delicate-yellow-abstract-watercolor-background_3590-82.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+
+#wrap{
+	width:900px;
+	margin:0 auto;
+}
+
+h1{
+	color:#fff;
+	font-family: 'Anton', sans-serif;
+  font-size: 11.5vw;
+  text-transform: uppercase;
+  position: absolute;
+  top: -4.5vw;
+  left: -1vw;
+  white-space: nowrap;
+	
+}
+
+h2{
+	padding-top:150px;
+	font-size:4.5vw;
+	color:#fff;
+	text-align:right;
+}
+
+header{
+	background-image:url(pic/ingredients-making-coffee-flat-lay_1220-4435.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:310px;
+	color:#fff;
+	
+}
+
+header p{
+	font-weight:bold;
+	font-size:18px;
+	padding-left:10px;
+}
+
+
+nav ul{
+	list-style-type:none;
+	width:700px;
+	margin:0 auto;
+}
+
+nav li{
+	text-align:center;
+	float:left;
+	font-size:16px;
+	font-family: 'Permanent Marker', cursive;
+	background-image:url(pic/blue-paint-wall-background-texture_53876-14183.jpg);
+	margin:5px 10px;
+	width:150px;
+	height:50px;
+	border-radius:1000px;
+}
+
+nav li a{
+	color:#fff;
+	text-decoration:none;
+}
+	
+li:first-letter{
+	font-size:1.8em
+}
+
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+
+main{
+	width:900px;
+	margin:0 auto;
+}
+
+.info{
+	border-radius: 240px 15px 100px 15px / 15px 200px 15px 185px;
+	border:dotted 3px #aaa;
+	background-color:#fff;
+	
+}
+
+.info h4{
+	padding:10px 20px;
+}
+
+.menu{
+	width:150px;
+	float:left;
+	padding:20px;
+	background-color:#fff;
+  position: relative;
+  padding: 0.25em 1em;
+  border: solid 2px #aaa;
+  border-radius: 3px 0 3px 0;
+}
+
+.menu:before, .menu:after {
+  content: '';
+  position: absolute;
+  width:10px;
+  height: 10px;
+  border: solid 2px #aaa;
+  border-radius: 50%;
+}
+
+.menu:after {
+  top:-12px;
+  left:-12px;
+}
+.menu:before {
+  bottom:-12px;
+  right:-12px;
+}
+
+.menu li a{
+	font-weight:bold;
+	font-size:20px;
+	color:#000;
+	padding:10px;
+}
+
+.menu img{
+	vertical-align:bottom;
+	height:30px;
+	width:30px;
+}
+
+.info{
+	width:550px;
+	float:left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:50px;
+}
+
+.info{
+	margin-left:30px;
+	
+}
+
+.morning_text{
+	float:left;
+	
+}
+
+.morning{
+	float:left;
+}
+
+.morning_pic{
+	float:left;
+	padding-left:20px;
+}
+
+.morning_pic img{
+	width:150px;
+	height:100px;
+}
+
+.cake_pic{
+	float:left;
+}
+
+.cake{
+	float:left;
+	margin-left:20px;
+}
+
+.cake_pic img{
+	width:150px;
+	height:100px;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.small{
+	float:left;
+	
+}
+
+.big_pic{
+	float:left;
+}
+
+.shop{
+	width:800px;
+	margin:0 auto;
+}
+
+.hako{
+	float:left;
+	
+}
+
+.big_pic img{
+	width:380px;
+	height:300px;
+	border-radius:25px 25px 25px 25px;
+}
+
+.small img{
+	width:200px;
+	height:200px;
+	border-radius:25px 25px 25px 25px;
+	
+}
+
+.address,.map{
+	float:left;
+}
+
+.map{
+	margin-left:45px;
+	margin-right:60px;
+}
+
+.address{
+	margin-top:20px;
+}
+
+.address p{
+	padding:10px;
+}
+
+.rights{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#ccc;
+	padding:10px 0;
+}
+
+h3{
+	text-align:center;
+	font-size:30px;
+	margin:10px 320px;
+  position: relative;
+  display: inline-block;
+  padding: 0 55px;
+}
+
+h3:before, h3:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+h3:before {
+  left:-35px;
+}
+h3:after {
+  right:-35px;
+}
+
+/*ここからタブレット用のCSS*/
+@media screen and (max-width:800px)
+{
+
+#wrap{
+	width:700px;
+}
+
+h2{
+	text-align:center;
+}
+
+main{
+	width:700px;
+	margin:0 auto;
+}
+
+.info{
+	width:430px;
+	padding:10px 20px;
+}
+
+.info h4{
+	font-size:14px;
+}
+
+.info p{
+	font-size:14px;
+}
+
+.morning_pic{
+	padding-left:10px;
+}
+
+.cake{
+	margin-left:5px;
+	width:270px;
+}
+
+img{
+	width:100%;
+}
+
+.big_pic,.hako{
+	float:none;
+	width:400px;
+	margin:0 auto;
+
+}
+
+
+h3{
+	font-size:25px;
+	margin:15px 245px;
+}
+
+.address,.map{
+	float:none;
+	text-align:center;
+}
+
+.map{
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.shop{
+	width:400px;
+	margin:0 auto;
+
+}
+
+}
+
+/*ここからスマホ用のCSS*/
+@media screen and (max-width: 500px)
+{
+
+#wrap{
+	width:400px;
+	margin:0 auto;
+	
+}
+nav ul{
+	
+	width:400px;
+	margin:0 auto;
+}
+
+nav li{
+	width:80px;
+	height:50px;
+	font-size:14px;
+}
+
+main{
+	width:400px;
+	margin:0 auto;
+}
+
+.info,.menu{
+	float:none;
+}
+
+.info{
+	margin-left:0px;
+	width:400px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+
+h3{
+	font-size:25px;
+	margin:15px 80px;
+}
+
+.cake{
+	margin-left:5px;
+	width:210px;
+}
+
+.info h4{
+	padding:10px 10px;
+}
+
+.rights{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#ccc;
+	padding:10px 0;
+}
+
+}
